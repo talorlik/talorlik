@@ -60,16 +60,14 @@
 
 </div>
 
----
-
-## 🏆 GitHub Trophies
+## 🏆 GitHub Stats (Extended)
 
 <div align="center">
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=talorlik&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1" alt="GitHub Trophies" /></a>
+<img src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&hide_border=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github" alt="Extended GitHub Stats" />
+
 
 </div>
-
 ---
 
 ## 📌 Featured Projects
