@@ -49,7 +49,7 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&hide_border=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github&include_all_commits=true&count_private=true" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=talorlik&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
@@ -60,15 +60,8 @@
 
 </div>
 
-## 🏆 GitHub Stats (Extended)
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&hide_border=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github" alt="Extended GitHub Stats" />
 
 
-</div>
----
 
 ## 📌 Featured Projects
 
