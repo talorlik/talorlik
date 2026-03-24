@@ -49,7 +49,7 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&hide_border=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github&include_all_commits=true&count_private=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=talorlik&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
@@ -60,8 +60,17 @@
 
 </div>
 
+---
 
+## 🏆 GitHub Trophies
 
+<div align="center">
+
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=talorlik&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1" alt="GitHub Trophies" /></a>
+
+</div>
+
+---
 
 ## 📌 Featured Projects
 
@@ -79,7 +88,6 @@
 ## 📈 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#8](https://github.com/nirgeier/KubernetesLabs/pull/8) in [nirgeier/KubernetesLabs](https://github.com/nirgeier/KubernetesLabs)
 <!--END_SECTION:activity-->
 
 ---
