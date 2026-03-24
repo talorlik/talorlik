@@ -79,6 +79,7 @@
 ## 📈 Recent Activity
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#8](https://github.com/nirgeier/KubernetesLabs/pull/8) in [nirgeier/KubernetesLabs](https://github.com/nirgeier/KubernetesLabs)
 <!--END_SECTION:activity-->
 
 ---
