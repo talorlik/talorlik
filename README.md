@@ -117,7 +117,7 @@
 owned repos, member since).</em></p>
 
 <p align="center">
-  <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=0&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
+  <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=2&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
   <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=35&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
   <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=1&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
   <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
