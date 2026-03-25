@@ -118,6 +118,13 @@
 <p><em>Live metrics below are refreshed by GitHub Actions (followers, public repos, total stars on
 owned repos, member since).</em></p>
 
+<p align="center">
+  <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=0&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
+  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=35&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
+  <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=1&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
+  <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
+</p>
+
 </div>
 <!--END_SECTION:github_stats-->
 
@@ -161,5 +168,16 @@ owned repos, member since).</em></p>
 ## Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#8](https://github.com/nirgeier/KubernetesLabs/pull/8) in [nirgeier/KubernetesLabs](https://github.com/nirgeier/KubernetesLabs)
+
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/docker-compose-ai-gateway`](https://github.com/talorlik/docker-compose-ai-gateway) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/docker-compose-ai-gateway`](https://github.com/talorlik/docker-compose-ai-gateway) (main)
+
 <!--END_SECTION:activity-->
