@@ -34,6 +34,52 @@ async function ghJson(path) {
   return r.json();
 }
 
+const NULL_SHA = "0".repeat(40);
+
+/**
+ * Commit count for a push. The public Events API does not include payload.size,
+ * payload.commits, or distinct_size; we use the compare API with before/head.
+ */
+async function pushCommitCount(ev) {
+  const p = ev.payload;
+  if (typeof p?.size === "number") {
+    return p.size;
+  }
+  if (typeof p?.distinct_size === "number") {
+    return p.distinct_size;
+  }
+  if (Array.isArray(p?.commits) && p.commits.length > 0) {
+    return p.commits.length;
+  }
+  const repoFull = ev.repo?.name;
+  const before = p?.before;
+  const head = p?.head;
+  if (!repoFull || !before || !head || before === head) {
+    return 0;
+  }
+  if (before === NULL_SHA || head === NULL_SHA) {
+    return 0;
+  }
+  const slash = repoFull.indexOf("/");
+  if (slash === -1) {
+    return 0;
+  }
+  const owner = repoFull.slice(0, slash);
+  const repoName = repoFull.slice(slash + 1);
+  try {
+    const data = await ghJson(
+      `/repos/${owner}/${repoName}/compare/${before}...${head}`,
+    );
+    if (typeof data.total_commits === "number") {
+      return data.total_commits;
+    }
+    return Array.isArray(data.commits) ? data.commits.length : 0;
+  } catch (e) {
+    console.error(`pushCommitCount: ${repoFull}: ${e.message}`);
+    return 0;
+  }
+}
+
 async function sumRepoStars(login) {
   let page = 1;
   let total = 0;
@@ -81,6 +127,19 @@ function replaceBlock(readme, startTag, endTag, content) {
   );
 }
 
+function formatEventTime(iso) {
+  if (!iso) {
+    return "unknown time";
+  }
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) {
+    return "unknown time";
+  }
+  const date = d.toISOString().slice(0, 10);
+  const time = d.toISOString().slice(11, 16);
+  return `${date} ${time} UTC`;
+}
+
 async function main() {
   const user = await ghJson(`/users/${USER}`);
   const followers = user.followers ?? 0;
@@ -112,29 +171,30 @@ owned repos, member since).</em></p>
     statsHtml,
   );
 
-  const events = await ghJson(`/users/${USER}/events/public?per_page=10`);
+  const events = await ghJson(`/users/${USER}/events/public?per_page=20`);
   const lines = [];
   for (const ev of events) {
     const type = ev.type;
     const repo = ev.repo?.name || "?";
     const url = `https://github.com/${repo}`;
+    const when = formatEventTime(ev.created_at);
     let line = "";
     if (type === "PushEvent") {
       const ref = ev.payload?.ref?.split("/").pop() || "main";
-      const commits = ev.payload?.commits?.length || 0;
-      line = `- 🚀 **Pushed** ${commits} commit(s) to [\`${repo}\`](${url}) (${ref})`;
+      const commits = await pushCommitCount(ev);
+      line = `- 🚀 **Pushed** ${commits} commit(s) to [\`${repo}\`](${url}) (${ref}) - ${when}`;
     } else if (type === "CreateEvent") {
-      line = `- ✨ **Created** ${ev.payload?.ref_type || "ref"} in [\`${repo}\`](${url})`;
+      line = `- ✨ **Created** ${ev.payload?.ref_type || "ref"} in [\`${repo}\`](${url}) - ${when}`;
     } else if (type === "WatchEvent") {
-      line = `- ⭐ **Starred** [\`${repo}\`](${url})`;
+      line = `- ⭐ **Starred** [\`${repo}\`](${url}) - ${when}`;
     } else if (type === "PullRequestEvent") {
       const action = ev.payload?.action || "";
-      line = `- 🔀 **PR ${action}** in [\`${repo}\`](${url})`;
+      line = `- 🔀 **PR ${action}** in [\`${repo}\`](${url}) - ${when}`;
     } else if (type === "IssuesEvent") {
       const action = ev.payload?.action || "";
-      line = `- 📌 **Issue ${action}** in [\`${repo}\`](${url})`;
+      line = `- 📌 **Issue ${action}** in [\`${repo}\`](${url}) - ${when}`;
     } else {
-      line = `- 📌 **${type}** in [\`${repo}\`](${url})`;
+      line = `- 📌 **${type}** in [\`${repo}\`](${url}) - ${when}`;
     }
     lines.push(line);
   }
