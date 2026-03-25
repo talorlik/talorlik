@@ -1,145 +1,165 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=150&text=Tal+Orlik&reversal=false&textBg=false&fontAlign=50&rotate=0&section=header&color=gradient"/>
-
-<h2 align="center">👋 Hi there! I'm Tal Orlik </h2>
+<img src="./docs/header_banner.png" alt="Tal Orlik - Platform Engineering banner" width="100%"/>
 
 <br/>
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=talorlik" alt="Visitor Badge"/>
 <img src="https://img.shields.io/github/followers/talorlik?style=social" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/talorlik?style=social" alt="Stars"/>
-<a href="https://linkedin.com/in/talorlik"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+
+![Profile Views](https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views)
+
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/talorlik)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hey+there%2C+I'm+Tal+Orlik+%F0%9F%91%8B;DevOps+Engineer+%7C+Cloud+Architect;AWS+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;Always+Automating%2C+Always+Evolving+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
----
+## About Me
 
-## 🧑‍💻 About Me
+- About **25 years** in high-tech across **South Africa, Spain, and Israel** - hands-on software
+  engineering, technical leadership, **DevOps**, and **cloud architecture**
+- Focus: **automation-first** delivery, **operational reliability**, **security-by-design**,
+  **performance tuning**, and **cost optimization**
+- Building and operating **cloud-native** platforms, **Kubernetes**, **IaC**, and **CI/CD**; exploring
+  **AI** in DevOps for smarter, faster workflows
+- Open to **DevOps**, **Platform Engineer**, or **Solution Architect** roles; **global relocation**
+- Languages: **English** and **Hebrew** (fluent), **Spanish** (working proficiency)
+- Ask me about **AWS, Kubernetes, Terraform, Docker, GitOps, and platform design**
 
-- 🔭 Currently working on **AI-powered microservice infrastructure** with Docker Compose & Kubernetes
-- 🌱 Deep-diving into **AWS EKS Auto Mode**, **ArgoCD GitOps**, and **AI Agents**
-- 🏢 Cloud Architect @ **ORLIK Managed IT Services (PTY) LTD**
-- 📍 Based in **Israel**
-- 💬 Ask me about **AWS, Kubernetes, Terraform, Docker, CI/CD**
-- ⚡ Fun fact: I automate everything — including things that probably don't need automating
+## Tech Stack
 
----
+<!--START_SECTION:skills_icons-->
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 1.25rem 1.5rem; max-width: 100%;">
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">☁️ Cloud &amp; Infrastructure</h3>
+<p align="center">
+  <a href="https://aws.amazon.com/" title="AWS | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=aws&perline=1" width="48" height="48" alt="AWS" /></a>
+  <a href="https://cloud.google.com/" title="Google Cloud | Last used: Current | Rating: 2/4 – Limited practical experience"><img src="https://skillicons.dev/icons?i=gcp&perline=1" width="48" height="48" alt="Google Cloud" /></a>
+  <a href="https://kubernetes.io/" title="Kubernetes | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=kubernetes&perline=1" width="48" height="48" alt="Kubernetes" /></a>
+  <a href="https://www.docker.com/" title="Docker | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=docker&perline=1" width="48" height="48" alt="Docker" /></a>
+  <a href="https://kernel.org/" title="Linux | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=linux&perline=1" width="48" height="48" alt="Linux" /></a>
+  <a href="https://ubuntu.com/" title="Ubuntu | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=ubuntu&perline=1" width="48" height="48" alt="Ubuntu" /></a>
+</p>
+</div>
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">🔧 IaC, GitOps &amp; CI/CD</h3>
+<p align="center">
+  <a href="https://www.terraform.io/" title="Terraform | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=terraform&perline=1" width="48" height="48" alt="Terraform" /></a>
+  <a href="https://www.ansible.com/" title="Ansible | Last used: Current | Rating: 2/4 – Limited practical experience"><img src="https://skillicons.dev/icons?i=ansible&perline=1" width="48" height="48" alt="Ansible" /></a>
+  <a href="https://helm.sh/" title="Helm | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://cdn.simpleicons.org/helm/0F1689" width="48" height="48" alt="Helm" /></a>
+  <a href="https://argo-cd.readthedocs.io/" title="Argo CD | Last used: Current | Rating: 2/4 – Limited practical experience"><img src="https://cdn.simpleicons.org/argo/EF7B4D" width="48" height="48" alt="Argo CD" /></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=githubactions&perline=1" width="48" height="48" alt="GitHub Actions" /></a>
+  <a href="https://www.jenkins.io/" title="Jenkins | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=jenkins&perline=1" width="48" height="48" alt="Jenkins" /></a>
+</p>
+</div>
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">💾 Datastores</h3>
+<p align="center">
+  <a href="https://www.postgresql.org/" title="PostgreSQL | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=postgres&perline=1" width="48" height="48" alt="PostgreSQL" /></a>
+  <a href="https://www.mysql.com/" title="MySQL | Last used: 2021/12 | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=mysql&perline=1" width="48" height="48" alt="MySQL" /></a>
+  <a href="https://www.mongodb.com/" title="MongoDB | Last used: 2023/09 | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=mongodb&perline=1" width="48" height="48" alt="MongoDB" /></a>
+  <a href="https://redis.io/" title="Redis | Last used: Current | Rating: 1/4 – Had appropriate training only"><img src="https://skillicons.dev/icons?i=redis&perline=1" width="48" height="48" alt="Redis" /></a>
+  <a href="https://aws.amazon.com/dynamodb/" title="DynamoDB | Last used: 2023/06 | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=dynamodb&perline=1" width="48" height="48" alt="DynamoDB" /></a>
+</p>
+</div>
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">💻 Languages &amp; Frameworks</h3>
+<p align="center">
+  <a href="https://www.python.org/" title="Python | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=py&perline=1" width="48" height="48" alt="Python" /></a>
+  <a href="https://go.dev/" title="Go | Last used: Current | Rating: 2/4 – Limited practical experience"><img src="https://skillicons.dev/icons?i=go&perline=1" width="48" height="48" alt="Go" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=js&perline=1" width="48" height="48" alt="JavaScript" /></a>
+  <a href="https://www.typescriptlang.org/" title="TypeScript | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=ts&perline=1" width="48" height="48" alt="TypeScript" /></a>
+  <a href="https://www.php.net/" title="PHP | Last used: 2021/12 | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=php&perline=1" width="48" height="48" alt="PHP" /></a>
+  <a href="https://www.gnu.org/software/bash/" title="Bash | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=bash&perline=1" width="48" height="48" alt="Bash" /></a>
+  <a href="https://react.dev/" title="React | Last used: 2020/12 | Rating: 1/4 – Had appropriate training only"><img src="https://skillicons.dev/icons?i=react&perline=1" width="48" height="48" alt="React" /></a>
+  <a href="https://angular.io/" title="Angular | Last used: 2019 | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=angular&perline=1" width="48" height="48" alt="Angular" /></a>
+</p>
+</div>
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">📊 Observability &amp; Web</h3>
+<p align="center">
+  <a href="https://prometheus.io/" title="Prometheus | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=prometheus&perline=1" width="48" height="48" alt="Prometheus" /></a>
+  <a href="https://grafana.com/" title="Grafana | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=grafana&perline=1" width="48" height="48" alt="Grafana" /></a>
+  <a href="https://www.elastic.co/" title="Elasticsearch (ELK) | Last used: 2023/06 | Rating: 2/4 – Limited practical experience"><img src="https://skillicons.dev/icons?i=elasticsearch&perline=1" width="48" height="48" alt="Elasticsearch (ELK)" /></a>
+  <a href="https://nginx.org/" title="Nginx | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=nginx&perline=1" width="48" height="48" alt="Nginx" /></a>
+</p>
+</div>
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">🧰 Tooling &amp; Platforms</h3>
+<p align="center">
+  <a href="https://git-scm.com/" title="Git | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=git&perline=1" width="48" height="48" alt="Git" /></a>
+  <a href="https://github.com/" title="GitHub | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=github&perline=1" width="48" height="48" alt="GitHub" /></a>
+  <a href="https://code.visualstudio.com/" title="VS Code | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="https://skillicons.dev/icons?i=vscode&perline=1" width="48" height="48" alt="VS Code" /></a>
+  <a href="https://www.postman.com/" title="Postman | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://skillicons.dev/icons?i=postman&perline=1" width="48" height="48" alt="Postman" /></a>
+</p>
+</div>
+<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">
+<h3 align="center">🤖 AI &amp; Engineering Assistants</h3>
+<p align="center">
+  <a href="https://openai.com/chatgpt" title="ChatGPT | Last used: Current | Rating: 4/4 – Well-versed, extensive experience"><img src="./docs/profile-icons/openai.svg" width="48" height="48" alt="ChatGPT" /></a>
+  <a href="https://www.perplexity.ai/" title="Perplexity | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://cdn.simpleicons.org/perplexity/20B8CD" width="48" height="48" alt="Perplexity" /></a>
+  <a href="https://cursor.com/" title="Cursor | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="./docs/profile-icons/cursor.svg" width="48" height="48" alt="Cursor" /></a>
+  <a href="https://www.warp.dev/" title="Warp | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://cdn.simpleicons.org/warp/00A3FF" width="48" height="48" alt="Warp" /></a>
+  <a href="https://gemini.google.com/" title="Gemini | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://cdn.simpleicons.org/googlegemini/8E75FF" width="48" height="48" alt="Gemini" /></a>
+  <a href="https://antigravity.google/" title="Antigravity | Last used: Current | Rating: 2/4 – Limited practical experience"><img src="https://cdn.simpleicons.org/google/4285F4" width="48" height="48" alt="Antigravity" /></a>
+  <a href="https://www.google.com/chrome/" title="Comet (browser) | Last used: Current | Rating: 3/4 – Solid practical experience"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" width="48" height="48" alt="Comet (browser)" /></a>
+</p>
+</div>
+</div>
 
-## 🛠️ Tech Stack
+<!--END_SECTION:skills_icons-->
 
-![Git](https://img.shields.io/badge/Git-1?logo=git&logoColor=white&labelColor=black&color=black)
-![Bash](https://img.shields.io/badge/Bash-1?logo=gnubash&logoColor=white&labelColor=black&color=black)
-![AWS](https://img.shields.io/badge/AWS-1?logo=amazonaws&logoColor=white&labelColor=black&color=black)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-1?logo=kubernetes&logoColor=white&labelColor=black&color=black)
-![Docker](https://img.shields.io/badge/Docker-1?logo=docker&logoColor=white&labelColor=black&color=black)
-![Terraform](https://img.shields.io/badge/Terraform-1?logo=terraform&logoColor=white&labelColor=black&color=black)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-1?logo=argo&logoColor=white&labelColor=black&color=black)
-![Python](https://img.shields.io/badge/Python-1?logo=python&logoColor=white&labelColor=black&color=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1?logo=githubactions&logoColor=white&labelColor=black&color=black)
-![Jenkins](https://img.shields.io/badge/Jenkins-1?logo=jenkins&logoColor=white&labelColor=black&color=black)
-![Helm](https://img.shields.io/badge/Helm-1?logo=helm&logoColor=white&labelColor=black&color=black)
-![Prometheus](https://img.shields.io/badge/Prometheus-1?logo=prometheus&logoColor=white&labelColor=black&color=black)
-![Grafana](https://img.shields.io/badge/Grafana-1?logo=grafana&logoColor=white&labelColor=black&color=black)
+## GitHub Stats
+
+<!--START_SECTION:github_stats-->
+<div align="center">
+
+<p><em>Live metrics below are refreshed by GitHub Actions (followers, public repos, total stars on
+owned repos, member since).</em></p>
+
+</div>
+<!--END_SECTION:github_stats-->
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 1.25rem 1.5rem; max-width: 100%;">
+<div align="center" style="flex: 1 1 280px; max-width: 520px; min-width: 220px;">
+<img height="180" src="./docs/generated/stats.svg" alt="GitHub stats card" />
+</div>
+<div align="center" style="flex: 1 1 280px; max-width: 520px; min-width: 220px;">
+<img height="180" src="./docs/generated/top-langs.svg" alt="Top languages" />
+</div>
+<div align="center" style="flex: 1 1 280px; max-width: 520px; min-width: 220px;">
+<img height="180" src="./docs/generated/streak.svg" alt="GitHub streak" />
+</div>
+</div>
+
+## GitHub Activity Graph
+
+<img src="./docs/generated/github-activity.svg" width="100%" alt="GitHub contribution activity graph"/>
+
+## GitHub Trophies
 
 <div align="center">
 
-### ☁️ Cloud & Infrastructure
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,kubernetes,terraform,docker,linux,bash&perline=6" />
-</a>
-
-### 🔧 DevOps & CI/CD
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=githubactions,jenkins,ansible,prometheus,grafana,nginx&perline=6" />
-</a>
-
-### 💻 Languages & Tools
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=py,go,js,ts,bash,postgres&perline=6" />
-</a>
-
-### 🧰 IDEs & Platforms
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=vscode,git,github,redis,mongodb,postman&perline=6" />
-</a>
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=talorlik&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1" alt="GitHub Trophies" /></a>
 
 </div>
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=talorlik&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=talorlik&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=talorlik&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 📈 GitHub Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=talorlik&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=talorlik&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1" alt="GitHub Trophies" /></a>
-
-</div>
-
----
-
-## 📚 Featured Projects
+## Featured Projects
 
 > Hands-on DevOps and Cloud infrastructure projects
 
 | Project | Description | Stack |
-|---|---|---|
-| 🐳 [docker-compose-ai-gateway](https://github.com/talorlik/docker-compose-ai-gateway) | AI microservice mesh deployed via Docker Compose | Python, Docker |
-| 🔐 [ldap-2fa-on-k8s](https://github.com/talorlik/ldap-2fa-on-k8s) | LDAP authentication with 2FA deployed on K8S | Shell, Helm |
-| 📚 [wikijs-on-k8s](https://github.com/talorlik/wikijs-on-k8s) | WikiJS on AWS EKS Auto Mode with Terraform & ArgoCD | HCL, GitOps |
-| ☸️ [eks-deployment](https://github.com/talorlik/eks-deployment) | AWS EKS deployment with Autoscaler & HPA | HCL, Kubernetes |
-| 🚀 [talo-devops-deployment](https://github.com/talorlik/talo-devops-deployment) | Full AWS + Kubernetes Infra + Application deployment | HCL, K8S |
-| ⚙️ [docker-compose-and-jenkins-casc](https://github.com/talorlik/docker-compose-and-jenkins-casc) | Jenkins server with JCasC via Docker Compose | Python, Docker |
+| --- | --- | --- |
+| [docker-compose-ai-gateway](https://github.com/talorlik/docker-compose-ai-gateway) | AI microservice mesh deployed via Docker Compose | Python, Docker |
+| [ldap-2fa-on-k8s](https://github.com/talorlik/ldap-2fa-on-k8s) | LDAP authentication with 2FA deployed on K8S | Shell, Helm |
+| [wikijs-on-k8s](https://github.com/talorlik/wikijs-on-k8s) | WikiJS on AWS EKS Auto Mode with Terraform & ArgoCD | HCL, GitOps |
+| [eks-deployment](https://github.com/talorlik/eks-deployment) | AWS EKS deployment with Autoscaler & HPA | HCL, Kubernetes |
+| [talo-devops-deployment](https://github.com/talorlik/talo-devops-deployment) | Full AWS + Kubernetes Infra + Application deployment | HCL, K8S |
+| [docker-compose-and-jenkins-casc](https://github.com/talorlik/docker-compose-and-jenkins-casc) | Jenkins server with JCasC via Docker Compose | Python, Docker |
 
----
-
-## 📈 Recent Activity
+## Recent Activity
 
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#8](https://github.com/nirgeier/KubernetesLabs/pull/8) in [nirgeier/KubernetesLabs](https://github.com/nirgeier/KubernetesLabs)
 <!--END_SECTION:activity-->
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/talorlik)
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views)
-
-*"Always Automating, Always Evolving"*
-
-</div>

@@ -1,0 +1,18 @@
+{
+  "name": "talorlik",
+  "version": "1.0.0",
+  "description": "GitHub profile README tooling",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render-skills": "node scripts/render-skills-readme.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talorlik/talorlik.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "yaml": "^2.8.3"
+  }
+}

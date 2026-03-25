@@ -1,0 +1,50 @@
+# Refreshes live README content and committed assets:
+# - Tech Stack (README + docs/index.html from SKILLS_MANIFEST.yaml)
+# - GitHub stats / top langs / streak / activity graph SVGs (docs/generated/)
+# - Live badge metrics + recent activity (GitHub API) inside README markers
+#
+# Requires secrets.GH_TOKEN (PAT) only if you need higher API limits; otherwise
+# secrets.GITHUB_TOKEN is used as a fallback for public API calls.
+name: Update README
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  update:
+    name: Update README, site, and generated assets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Render skills, fetch SVGs, patch live metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USERNAME: talorlik
+        run: bash scripts/ci-update-readme.sh
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/generated/ docs/index.html
+          if git diff --staged --quiet; then
+            echo "No changes to README, generated SVGs, or docs site."
+            exit 0
+          fi
+          git commit -m "chore: refresh README stats, activity, and generated assets"
+          git push

@@ -1,0 +1,353 @@
+# Canonical skill rows for README Tech Stack (see scripts/render-skills-readme.mjs)
+schema_version: 1
+icon_size: 48
+sections:
+  cloud: "Cloud & Infrastructure"
+  iac: "IaC, GitOps & CI/CD"
+  data: "Datastores"
+  languages: "Languages & Frameworks"
+  observability: "Observability & Web"
+  tooling: "Tooling & Platforms"
+  ai: "AI & Engineering Assistants"
+
+skills:
+  # Cloud & Infrastructure
+  - id: aws
+    section: cloud
+    label: AWS
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: aws
+    link: https://aws.amazon.com/
+  - id: gcp
+    section: cloud
+    label: Google Cloud
+    last_used: Current
+    rating: 2
+    icon_kind: skillicons
+    icon_ref: gcp
+    link: https://cloud.google.com/
+  - id: kubernetes
+    section: cloud
+    label: Kubernetes
+    last_used: Current
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: kubernetes
+    link: https://kubernetes.io/
+  - id: docker
+    section: cloud
+    label: Docker
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: docker
+    link: https://www.docker.com/
+  - id: linux
+    section: cloud
+    label: Linux
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: linux
+    link: https://kernel.org/
+  - id: ubuntu
+    section: cloud
+    label: Ubuntu
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: ubuntu
+    link: https://ubuntu.com/
+
+  # IaC & GitOps
+  - id: terraform
+    section: iac
+    label: Terraform
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: terraform
+    link: https://www.terraform.io/
+  - id: ansible
+    section: iac
+    label: Ansible
+    last_used: Current
+    rating: 2
+    icon_kind: skillicons
+    icon_ref: ansible
+    link: https://www.ansible.com/
+  - id: helm
+    section: iac
+    label: Helm
+    last_used: Current
+    rating: 3
+    icon_kind: simpleicons
+    icon_slug: helm
+    icon_color: "0F1689"
+    link: https://helm.sh/
+  - id: argocd
+    section: iac
+    label: Argo CD
+    last_used: Current
+    rating: 2
+    icon_kind: simpleicons
+    icon_slug: argo
+    icon_color: EF7B4D
+    link: https://argo-cd.readthedocs.io/
+  - id: githubactions
+    section: iac
+    label: GitHub Actions
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: githubactions
+    link: https://github.com/features/actions
+  - id: jenkins
+    section: iac
+    label: Jenkins
+    last_used: Current
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: jenkins
+    link: https://www.jenkins.io/
+
+  # Data
+  - id: postgres
+    section: data
+    label: PostgreSQL
+    last_used: Current
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: postgres
+    link: https://www.postgresql.org/
+  - id: mysql
+    section: data
+    label: MySQL
+    last_used: "2021/12"
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: mysql
+    link: https://www.mysql.com/
+  - id: mongodb
+    section: data
+    label: MongoDB
+    last_used: "2023/09"
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: mongodb
+    link: https://www.mongodb.com/
+  - id: redis
+    section: data
+    label: Redis
+    last_used: Current
+    rating: 1
+    icon_kind: skillicons
+    icon_ref: redis
+    link: https://redis.io/
+  - id: dynamodb
+    section: data
+    label: DynamoDB
+    last_used: "2023/06"
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: dynamodb
+    link: https://aws.amazon.com/dynamodb/
+
+  # Languages
+  - id: py
+    section: languages
+    label: Python
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: py
+    link: https://www.python.org/
+  - id: go
+    section: languages
+    label: Go
+    last_used: Current
+    rating: 2
+    icon_kind: skillicons
+    icon_ref: go
+    link: https://go.dev/
+  - id: js
+    section: languages
+    label: JavaScript
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: js
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  - id: ts
+    section: languages
+    label: TypeScript
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: ts
+    link: https://www.typescriptlang.org/
+  - id: php
+    section: languages
+    label: PHP
+    last_used: "2021/12"
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: php
+    link: https://www.php.net/
+  - id: bash
+    section: languages
+    label: Bash
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: bash
+    link: https://www.gnu.org/software/bash/
+  - id: react
+    section: languages
+    label: React
+    last_used: "2020/12"
+    rating: 1
+    icon_kind: skillicons
+    icon_ref: react
+    link: https://react.dev/
+  - id: angular
+    section: languages
+    label: Angular
+    last_used: "2019"
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: angular
+    link: https://angular.io/
+
+  # Observability
+  - id: prometheus
+    section: observability
+    label: Prometheus
+    last_used: Current
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: prometheus
+    link: https://prometheus.io/
+  - id: grafana
+    section: observability
+    label: Grafana
+    last_used: Current
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: grafana
+    link: https://grafana.com/
+  - id: elasticsearch
+    section: observability
+    label: Elasticsearch (ELK)
+    last_used: "2023/06"
+    rating: 2
+    icon_kind: skillicons
+    icon_ref: elasticsearch
+    link: https://www.elastic.co/
+  - id: nginx
+    section: observability
+    label: Nginx
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: nginx
+    link: https://nginx.org/
+
+  # Tooling
+  - id: git
+    section: tooling
+    label: Git
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: git
+    link: https://git-scm.com/
+  - id: github
+    section: tooling
+    label: GitHub
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: github
+    link: https://github.com/
+  - id: vscode
+    section: tooling
+    label: VS Code
+    last_used: Current
+    rating: 4
+    icon_kind: skillicons
+    icon_ref: vscode
+    link: https://code.visualstudio.com/
+  - id: postman
+    section: tooling
+    label: Postman
+    last_used: Current
+    rating: 3
+    icon_kind: skillicons
+    icon_ref: postman
+    link: https://www.postman.com/
+
+  # AI & assistants (skills matrix)
+  - id: chatgpt
+    section: ai
+    label: ChatGPT
+    last_used: Current
+    rating: 4
+    icon_kind: local
+    icon_ref: docs/profile-icons/openai.svg
+    link: https://openai.com/chatgpt
+  - id: perplexity
+    section: ai
+    label: Perplexity
+    last_used: Current
+    rating: 3
+    icon_kind: simpleicons
+    icon_slug: perplexity
+    icon_color: "20B8CD"
+    link: https://www.perplexity.ai/
+  - id: cursor
+    section: ai
+    label: Cursor
+    last_used: Current
+    rating: 3
+    icon_kind: local
+    icon_ref: docs/profile-icons/cursor.svg
+    link: https://cursor.com/
+  - id: warp
+    section: ai
+    label: Warp
+    last_used: Current
+    rating: 3
+    icon_kind: simpleicons
+    icon_slug: warp
+    icon_color: "00A3FF"
+    link: https://www.warp.dev/
+  - id: gemini
+    section: ai
+    label: Gemini
+    last_used: Current
+    rating: 3
+    icon_kind: simpleicons
+    icon_slug: googlegemini
+    icon_color: "8E75FF"
+    link: https://gemini.google.com/
+  - id: antigravity
+    section: ai
+    label: Antigravity
+    last_used: Current
+    rating: 2
+    icon_kind: simpleicons
+    icon_slug: google
+    icon_color: "4285F4"
+    link: https://antigravity.google/
+  - id: comet
+    section: ai
+    label: Comet (browser)
+    last_used: Current
+    rating: 3
+    icon_kind: simpleicons
+    icon_slug: googlechrome
+    icon_color: "4285F4"
+    link: https://www.google.com/chrome/
