@@ -1,18 +1,16 @@
 <div align="center">
 
-<img src="./docs/header_banner.png" alt="Tal Orlik - Platform Engineering banner" width="100%"/>
-
 <br/>
-
-<img src="https://visitor-badge.laobi.icu/badge?page_id=talorlik" alt="Visitor Badge"/>
-<img src="https://img.shields.io/github/followers/talorlik?style=social" alt="Followers"/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views)
-
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/talorlik)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hey+there%2C+I'm+Tal+Orlik+%F0%9F%91%8B;DevOps+Engineer+%7C+Cloud+Architect;AWS+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;Always+Automating%2C+Always+Evolving+%F0%9F%9A%80)](https://git.io/typing-svg)
 
+</div>
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.5rem 0.75rem; margin: 0.5rem 0 1rem;">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=talorlik" alt="Visitor Badge"/>
+  <img src="https://img.shields.io/github/followers/talorlik?style=social" alt="Followers"/>
+  <img src="https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+  <a href="https://linkedin.com/in/talorlik"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
 </div>
 
 ## About Me
