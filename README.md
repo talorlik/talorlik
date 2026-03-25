@@ -7,10 +7,10 @@
 </div>
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.5rem 0.75rem; margin: 0.5rem 0 1rem;">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=talorlik" alt="Visitor Badge"/>
-  <img src="https://img.shields.io/github/followers/talorlik?style=social" alt="Followers"/>
-  <img src="https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views" alt="Profile Views"/>
-  <a href="https://linkedin.com/in/talorlik"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=talorlik" alt="Visitor Badge" style="height: 28px; width: auto;"/>
+  <img src="https://img.shields.io/github/followers/talorlik?style=social" alt="Followers" style="height: 28px; width: auto;"/>
+  <img src="https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views" alt="Profile Views" style="height: 28px; width: auto;"/>
+  <a href="https://linkedin.com/in/talorlik"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="height: 28px; width: 28px;"/></a>
 </div>
 
 ## About Me
