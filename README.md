@@ -177,7 +177,7 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
 - 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
 - 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
-- 🚀 **Pushed** 0 commit(s) to [`talorlik/docker-compose-ai-gateway`](https://github.com/talorlik/docker-compose-ai-gateway) (main)
+- 🚀 **Pushed** 0 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main)
 - 🚀 **Pushed** 0 commit(s) to [`talorlik/docker-compose-ai-gateway`](https://github.com/talorlik/docker-compose-ai-gateway) (main)
 
 <!--END_SECTION:activity-->
