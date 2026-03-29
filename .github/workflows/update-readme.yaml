@@ -1,6 +1,7 @@
 # Refreshes live README content and committed assets:
 # - Tech Stack (README + docs/index.html from SKILLS_MANIFEST.yaml)
-# - GitHub stats / top langs / streak / activity graph SVGs (docs/generated/)
+# - GitHub stats / top langs SVGs (via github-readme-stats-action)
+# - Streak / activity graph SVGs (via curl)
 # - Live badge metrics + recent activity (GitHub API) inside README markers
 #
 # Requires secrets.GH_TOKEN (PAT) only if you need higher API limits; otherwise
@@ -31,7 +32,23 @@ jobs:
           node-version: "24"
           cache: npm
 
-      - name: Render skills, fetch SVGs, patch live metrics
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=talorlik&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true
+          path: docs/generated/stats.svg
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=talorlik&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
+          path: docs/generated/top-langs.svg
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Render skills, fetch remaining SVGs, patch live metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USERNAME: talorlik

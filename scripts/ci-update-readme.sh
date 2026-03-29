@@ -9,7 +9,9 @@ export GH_USERNAME="${GH_USERNAME:-talorlik}"
 
 npm ci
 npm run render-skills
+
 bash scripts/fetch-readme-svgs.sh
+
 if [[ -n "${GITHUB_TOKEN:-}" ]] || [[ -n "${GH_TOKEN:-}" ]]; then
   export GITHUB_TOKEN="${GITHUB_TOKEN:-${GH_TOKEN:-}}"
   node scripts/patch-readme-dynamic.mjs

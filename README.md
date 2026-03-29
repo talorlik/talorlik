@@ -146,7 +146,7 @@ owned repos, member since).</em></p>
 
 <div align="center">
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=talorlik&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1" alt="GitHub Trophies" /></a>
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="./docs/generated/trophies.svg" alt="GitHub Trophies" /></a>
 
 </div>
 
