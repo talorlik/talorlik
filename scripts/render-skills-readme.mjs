@@ -7,6 +7,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 import { parse } from "yaml";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -143,6 +144,42 @@ function toDataUri(contentType, bytes) {
   return `data:${contentType};base64,${Buffer.from(bytes).toString("base64")}`;
 }
 
+function hashSource(src) {
+  return createHash("sha256").update(src).digest("hex").slice(0, 24);
+}
+
+function extensionFromContentType(contentType) {
+  if (contentType.includes("svg")) {
+    return "svg";
+  }
+  if (contentType.includes("png")) {
+    return "png";
+  }
+  if (contentType.includes("jpeg") || contentType.includes("jpg")) {
+    return "jpg";
+  }
+  if (contentType.includes("webp")) {
+    return "webp";
+  }
+  return "bin";
+}
+
+function mimeFromExtension(ext) {
+  if (ext === "svg") {
+    return "image/svg+xml";
+  }
+  if (ext === "png") {
+    return "image/png";
+  }
+  if (ext === "jpg" || ext === "jpeg") {
+    return "image/jpeg";
+  }
+  if (ext === "webp") {
+    return "image/webp";
+  }
+  return "application/octet-stream";
+}
+
 async function fetchIconDataUri(src) {
   if (src.startsWith("./")) {
     const abs = join(root, src.slice(2));
@@ -155,14 +192,53 @@ async function fetchIconDataUri(src) {
     return toDataUri(mime, file);
   }
 
-  const res = await fetch(src);
-  if (!res.ok) {
-    throw new Error(`Failed to fetch icon: ${src} (${res.status})`);
+  const cacheDir = join(root, "docs", "generated", "skill-icons");
+  mkdirSync(cacheDir, { recursive: true });
+  const key = hashSource(src);
+  const cachedSvg = join(cacheDir, `${key}.svg`);
+  const cachedPng = join(cacheDir, `${key}.png`);
+  const cachedJpg = join(cacheDir, `${key}.jpg`);
+  const cachedWebp = join(cacheDir, `${key}.webp`);
+  const cachedPaths = [cachedSvg, cachedPng, cachedJpg, cachedWebp];
+  for (const p of cachedPaths) {
+    try {
+      const bytes = readFileSync(p);
+      const ext = p.split(".").pop();
+      return toDataUri(mimeFromExtension(ext), bytes);
+    } catch {
+      // continue to next cache candidate
+    }
+  }
+
+  let res;
+  let lastStatus = "";
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    res = await fetch(src, {
+      headers: {
+        "User-Agent": "talorlik-readme-generator/1.0 (+https://github.com/talorlik/talorlik)",
+        Accept: "image/svg+xml,image/png,image/*;q=0.8,*/*;q=0.5",
+      },
+    });
+    if (res.ok) {
+      break;
+    }
+    lastStatus = String(res.status);
+    if (attempt < 3) {
+      await new Promise((resolve) => {
+        setTimeout(resolve, 250 * attempt);
+      });
+    }
+  }
+  if (!res || !res.ok) {
+    throw new Error(`Failed to fetch icon: ${src} (${lastStatus || "unknown"})`);
   }
   const type = (res.headers.get("content-type") || "image/svg+xml")
     .split(";")[0]
     .trim();
   const bytes = new Uint8Array(await res.arrayBuffer());
+  const ext = extensionFromContentType(type);
+  const cachePath = join(cacheDir, `${key}.${ext}`);
+  writeFileSync(cachePath, bytes);
   return toDataUri(type, bytes);
 }
 
