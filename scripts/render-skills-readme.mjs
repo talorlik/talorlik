@@ -4,7 +4,7 @@
  * and optionally docs/index.html between
  * <!--START_TECH_STACK_WEB--> ... <!--END_TECH_STACK_WEB-->
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
@@ -122,68 +122,158 @@ function collectSections(manifest) {
   return { sections, bySection };
 }
 
-/** GitHub profile README: table layout for reliable alignment on GitHub. */
-function renderSkillsHtml(manifest) {
+function renderSkillsHtml() {
+  return `<div align="center">
+  <img src="./docs/generated/tech-stack.svg" alt="Tech stack grouped by category" width="100%" />
+</div>`;
+}
+
+function escapeTextNode(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
+function toDataUri(contentType, bytes) {
+  if (contentType.includes("svg")) {
+    const raw = Buffer.from(bytes).toString("utf8");
+    return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(raw)}`;
+  }
+  return `data:${contentType};base64,${Buffer.from(bytes).toString("base64")}`;
+}
+
+async function fetchIconDataUri(src) {
+  if (src.startsWith("./")) {
+    const abs = join(root, src.slice(2));
+    const file = readFileSync(abs);
+    const mime = abs.endsWith(".svg")
+      ? "image/svg+xml"
+      : abs.endsWith(".png")
+        ? "image/png"
+        : "image/svg+xml";
+    return toDataUri(mime, file);
+  }
+
+  const res = await fetch(src);
+  if (!res.ok) {
+    throw new Error(`Failed to fetch icon: ${src} (${res.status})`);
+  }
+  const type = (res.headers.get("content-type") || "image/svg+xml")
+    .split(";")[0]
+    .trim();
+  const bytes = new Uint8Array(await res.arrayBuffer());
+  return toDataUri(type, bytes);
+}
+
+async function renderTechStackSvg(manifest) {
   const size = manifest.icon_size || 48;
   const { sections, bySection } = collectSections(manifest);
 
-  const sectionCell = (secId) => {
-    const rows = bySection.get(secId) || [];
-    if (rows.length === 0) {
+  const topRows = [
+    ["cloud", "iac", "data"],
+    ["languages", "observability", "tooling"],
+  ];
+  const aiRow = ["ai"];
+
+  const width = 1200;
+  const colWidth = 360;
+  const colGap = 18;
+  const marginX = Math.floor((width - (colWidth * 3 + colGap * 2)) / 2);
+  const titleFontSize = 16.8;
+  const titleTopPadding = 24;
+  const titleToIconsGap = 16;
+  const iconGap = 10;
+  const iconsPerRow = 4;
+  const aiIconsPerRow = 7;
+  const lineHeight = size + iconGap + 2;
+  const sectionBottomPadding = 20;
+  const iconsOffsetY = titleTopPadding + titleFontSize + titleToIconsGap;
+  const sectionHeights = new Map();
+  for (const secId of SECTION_ORDER) {
+    const count = (bySection.get(secId) || []).length;
+    const iconCols = secId === "ai" ? aiIconsPerRow : iconsPerRow;
+    const rows = Math.max(1, Math.ceil(count / iconCols));
+    sectionHeights.set(
+      secId,
+      iconsOffsetY + rows * lineHeight + sectionBottomPadding,
+    );
+  }
+
+  const rowGap = 18;
+  const topHeight = Math.max(
+    ...topRows[0].map((id) => sectionHeights.get(id) || 0),
+  );
+  const middleHeight = Math.max(
+    ...topRows[1].map((id) => sectionHeights.get(id) || 0),
+  );
+  const aiHeight = sectionHeights.get("ai") || 220;
+  const height = 24 + topHeight + rowGap + middleHeight + rowGap + aiHeight + 24;
+
+  const iconCache = new Map();
+  const iconFor = async (skill) => {
+    const src = iconSrc(skill, size, "readme");
+    if (!iconCache.has(src)) {
+      iconCache.set(src, await fetchIconDataUri(src));
+    }
+    return iconCache.get(src);
+  };
+
+  const drawSection = async (secId, x, y, w) => {
+    const items = bySection.get(secId) || [];
+    if (items.length === 0) {
       return "";
     }
     const title = sections[secId] || secId;
-    const emo = SECTION_EMOJI[secId] || "";
-    const parts = [];
-    parts.push(
-      '    <td align="center" valign="top" width="33%" style="border: 0; background: transparent; padding: 12px 16px;">\n',
+    const emoji = SECTION_EMOJI[secId] || "";
+    const titleText = `${emoji} ${title}`;
+    const iconCols = secId === "ai" ? aiIconsPerRow : iconsPerRow;
+
+    const out = [];
+    out.push(
+      `<text x="${Math.round(x + w / 2)}" y="${y + titleTopPadding}" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="${titleFontSize}" font-weight="700" fill="#e5e7eb">${escapeTextNode(titleText)}</text>`,
     );
-    parts.push(`      <h3 style="margin: 0 0 10px 0;">${emo} ${escapeHtml(title)}</h3>\n`);
-    parts.push('      <p style="margin: 0;">\n');
-    for (const skill of rows) {
-      parts.push(`        ${renderIconLinks(skill, size, "readme")}`);
+    const rows = Math.max(1, Math.ceil(items.length / iconCols));
+    for (let row = 0; row < rows; row += 1) {
+      const start = row * iconCols;
+      const rowItems = items.slice(start, start + iconCols);
+      const iconsInRow = rowItems.length;
+      const rowWidth = iconsInRow * size + (iconsInRow - 1) * iconGap;
+      const rowX = Math.round(x + (w - rowWidth) / 2);
+      for (let col = 0; col < rowItems.length; col += 1) {
+        const ix = rowX + col * (size + iconGap);
+        const iy = y + iconsOffsetY + row * lineHeight;
+        const uri = await iconFor(rowItems[col]);
+        out.push(
+          `<image x="${ix}" y="${iy}" width="${size}" height="${size}" href="${uri}" />`,
+        );
+      }
     }
-    parts.push("\n      </p>\n");
-    parts.push("    </td>\n");
-    return parts.join("");
+    return out.join("\n");
   };
-
-  const rowMarkup = (ids) => {
-    const cells = ids.map((id) => sectionCell(id)).filter(Boolean);
-    if (cells.length === 0) {
-      return "";
-    }
-    return `  <tr style="border: 0; background: transparent;">\n${cells.join("")}  </tr>\n`;
-  };
-
-  const aiRows = bySection.get("ai") || [];
-  const aiTitle = sections.ai || "ai";
-  const aiEmoji = SECTION_EMOJI.ai || "";
 
   const parts = [];
   parts.push(
-    '<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: 0; background: transparent;">\n',
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Tech stack by category">`,
   );
-  parts.push(rowMarkup(["cloud", "iac", "data"]));
-  parts.push(rowMarkup(["languages", "observability", "tooling"]));
-  if (aiRows.length > 0) {
-    parts.push('  <tr style="border: 0; background: transparent;">\n');
-    parts.push(
-      '    <td align="center" colspan="3" style="border: 0; background: transparent; padding: 12px 16px;">\n',
-    );
-    parts.push(
-      `      <h3 style="margin: 0 0 10px 0;">${aiEmoji} ${escapeHtml(aiTitle)}</h3>\n`,
-    );
-    parts.push('      <p style="margin: 0;">\n');
-    for (const skill of aiRows) {
-      parts.push(`        ${renderIconLinks(skill, size, "readme")}`);
+  parts.push(`<rect width="${width}" height="${height}" fill="transparent" />`);
+
+  let y = 24;
+  for (const row of topRows) {
+    const rowH = Math.max(...row.map((id) => sectionHeights.get(id) || 0));
+    for (let i = 0; i < row.length; i += 1) {
+      const secId = row[i];
+      const x = marginX + i * (colWidth + colGap);
+      parts.push(await drawSection(secId, x, y, colWidth));
     }
-    parts.push("\n      </p>\n");
-    parts.push("    </td>\n");
-    parts.push("  </tr>\n");
+    y += rowH + rowGap;
   }
-  parts.push("</table>\n");
-  return parts.join("");
+
+  const aiX = marginX;
+  const aiW = colWidth * 3 + colGap * 2;
+  parts.push(await drawSection(aiRow[0], aiX, y, aiW));
+  parts.push("</svg>");
+  return parts.join("\n");
 }
 
 /** docs/index.html: semantic grid + styles.css */
@@ -231,14 +321,21 @@ function replaceBetweenMarkers(filePath, startMarker, endMarker, block) {
   return true;
 }
 
-function main() {
+async function main() {
   const manifestPath = join(root, "docs", "SKILLS_MANIFEST.yaml");
   const readmePath = join(root, "README.md");
   const indexPath = join(root, "docs", "index.html");
+  const generatedDir = join(root, "docs", "generated");
+  const techStackSvgPath = join(generatedDir, "tech-stack.svg");
 
   const manifest = parse(readFileSync(manifestPath, "utf8"));
 
-  const readmeBlock = renderSkillsHtml(manifest);
+  mkdirSync(generatedDir, { recursive: true });
+  const techStackSvg = await renderTechStackSvg(manifest);
+  writeFileSync(techStackSvgPath, techStackSvg, "utf8");
+  console.error("render-skills-readme: updated docs/generated/tech-stack.svg");
+
+  const readmeBlock = renderSkillsHtml();
   const okReadme = replaceBetweenMarkers(
     readmePath,
     "<!--START_SECTION:skills_icons-->",
@@ -268,4 +365,7 @@ function main() {
   }
 }
 
-main();
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
