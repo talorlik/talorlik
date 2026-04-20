@@ -92,14 +92,18 @@ function renderIconLinks(skill, size, base) {
   const titleAttr = escapeAttr(buildTooltip(skill));
   const alt = escapeAttr(skill.label);
   const img = `<img src="${src}" width="${size}" height="${size}" alt="${alt}" />`;
+  const readmeIconStyle =
+    base === "readme"
+      ? ' style="display: inline-block; margin: 2px;"'
+      : "";
   if (skill.link) {
     const rel =
       base === "web"
         ? ' rel="noopener noreferrer" target="_blank"'
         : "";
-    return `<a href="${skill.link}" title="${titleAttr}"${rel}>${img}</a>`;
+    return `<a href="${skill.link}" title="${titleAttr}"${rel}${readmeIconStyle}>${img}</a>`;
   }
-  return `<span title="${titleAttr}">${img}</span>`;
+  return `<span title="${titleAttr}"${readmeIconStyle}>${img}</span>`;
 }
 
 function collectSections(manifest) {
@@ -131,13 +135,15 @@ function renderSkillsHtml(manifest) {
     const title = sections[secId] || secId;
     const emo = SECTION_EMOJI[secId] || "";
     const parts = [];
-    parts.push('    <td align="center" valign="top" width="33%">\n');
-    parts.push(`      <h3>${emo} ${escapeHtml(title)}</h3>\n`);
-    parts.push("      <p>\n");
+    parts.push(
+      '    <td align="center" valign="top" width="33%" style="border: 0; background: transparent; padding: 12px 16px;">\n',
+    );
+    parts.push(`      <h3 style="margin: 0 0 10px 0;">${emo} ${escapeHtml(title)}</h3>\n`);
+    parts.push('      <p style="margin: 0;">\n');
     for (const skill of rows) {
-      parts.push(`        ${renderIconLinks(skill, size, "readme")}\n`);
+      parts.push(`        ${renderIconLinks(skill, size, "readme")}`);
     }
-    parts.push("      </p>\n");
+    parts.push("\n      </p>\n");
     parts.push("    </td>\n");
     return parts.join("");
   };
@@ -147,7 +153,7 @@ function renderSkillsHtml(manifest) {
     if (cells.length === 0) {
       return "";
     }
-    return `  <tr>\n${cells.join("")}  </tr>\n`;
+    return `  <tr style="border: 0; background: transparent;">\n${cells.join("")}  </tr>\n`;
   };
 
   const aiRows = bySection.get("ai") || [];
@@ -155,18 +161,24 @@ function renderSkillsHtml(manifest) {
   const aiEmoji = SECTION_EMOJI.ai || "";
 
   const parts = [];
-  parts.push('<table align="center">\n');
+  parts.push(
+    '<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: 0; background: transparent;">\n',
+  );
   parts.push(rowMarkup(["cloud", "iac", "data"]));
   parts.push(rowMarkup(["languages", "observability", "tooling"]));
   if (aiRows.length > 0) {
-    parts.push("  <tr>\n");
-    parts.push('    <td align="center" colspan="3">\n');
-    parts.push(`      <h3>${aiEmoji} ${escapeHtml(aiTitle)}</h3>\n`);
-    parts.push("      <p>\n");
+    parts.push('  <tr style="border: 0; background: transparent;">\n');
+    parts.push(
+      '    <td align="center" colspan="3" style="border: 0; background: transparent; padding: 12px 16px;">\n',
+    );
+    parts.push(
+      `      <h3 style="margin: 0 0 10px 0;">${aiEmoji} ${escapeHtml(aiTitle)}</h3>\n`,
+    );
+    parts.push('      <p style="margin: 0;">\n');
     for (const skill of aiRows) {
-      parts.push(`        ${renderIconLinks(skill, size, "readme")}\n`);
+      parts.push(`        ${renderIconLinks(skill, size, "readme")}`);
     }
-    parts.push("      </p>\n");
+    parts.push("\n      </p>\n");
     parts.push("    </td>\n");
     parts.push("  </tr>\n");
   }
