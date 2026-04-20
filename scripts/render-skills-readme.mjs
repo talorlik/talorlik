@@ -118,38 +118,59 @@ function collectSections(manifest) {
   return { sections, bySection };
 }
 
-/** GitHub profile README: flex-wrap blocks (inline style may be sanitized). */
+/** GitHub profile README: table layout for reliable alignment on GitHub. */
 function renderSkillsHtml(manifest) {
   const size = manifest.icon_size || 48;
   const { sections, bySection } = collectSections(manifest);
 
-  const parts = [];
-  parts.push(
-    '<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 1.25rem 1.5rem; max-width: 100%;">\n',
-  );
-
-  for (const secId of SECTION_ORDER) {
+  const sectionCell = (secId) => {
     const rows = bySection.get(secId) || [];
     if (rows.length === 0) {
-      continue;
+      return "";
     }
     const title = sections[secId] || secId;
     const emo = SECTION_EMOJI[secId] || "";
-    parts.push(
-      '<div align="center" style="flex: 1 1 260px; max-width: 420px; min-width: 200px;">\n',
-    );
-    parts.push(
-      `<h3 align="center">${emo} ${escapeHtml(title)}</h3>\n`,
-    );
-    parts.push('<p align="center">\n');
+    const parts = [];
+    parts.push('    <td align="center" valign="top" width="33%">\n');
+    parts.push(`      <h3>${emo} ${escapeHtml(title)}</h3>\n`);
+    parts.push("      <p>\n");
     for (const skill of rows) {
-      parts.push(`  ${renderIconLinks(skill, size, "readme")}\n`);
+      parts.push(`        ${renderIconLinks(skill, size, "readme")}\n`);
     }
-    parts.push("</p>\n");
-    parts.push("</div>\n");
-  }
+    parts.push("      </p>\n");
+    parts.push("    </td>\n");
+    return parts.join("");
+  };
 
-  parts.push("</div>\n");
+  const rowMarkup = (ids) => {
+    const cells = ids.map((id) => sectionCell(id)).filter(Boolean);
+    if (cells.length === 0) {
+      return "";
+    }
+    return `  <tr>\n${cells.join("")}  </tr>\n`;
+  };
+
+  const aiRows = bySection.get("ai") || [];
+  const aiTitle = sections.ai || "ai";
+  const aiEmoji = SECTION_EMOJI.ai || "";
+
+  const parts = [];
+  parts.push('<table align="center">\n');
+  parts.push(rowMarkup(["cloud", "iac", "data"]));
+  parts.push(rowMarkup(["languages", "observability", "tooling"]));
+  if (aiRows.length > 0) {
+    parts.push("  <tr>\n");
+    parts.push('    <td align="center" colspan="3">\n');
+    parts.push(`      <h3>${aiEmoji} ${escapeHtml(aiTitle)}</h3>\n`);
+    parts.push("      <p>\n");
+    for (const skill of aiRows) {
+      parts.push(`        ${renderIconLinks(skill, size, "readme")}\n`);
+    }
+    parts.push("      </p>\n");
+    parts.push("    </td>\n");
+    parts.push("  </tr>\n");
+  }
+  parts.push("</table>\n");
   return parts.join("");
 }
 
