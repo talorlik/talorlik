@@ -92,25 +92,6 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 19:13 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 18:29 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 18:11 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 15:19 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 12:21 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 12:15 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 10:53 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 10:41 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-16 20:26 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-16 20:23 UTC
-- 📌 **ForkEvent** in [`nirgeier/AnsibleLabs`](https://github.com/nirgeier/AnsibleLabs) - 2026-04-15 15:09 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-08 14:48 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 15:29 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 11:05 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 11:00 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:55 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:49 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:42 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:23 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:19 UTC
+_No recent public activity._
 
 <!--END_SECTION:activity-->
