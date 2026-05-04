@@ -43,7 +43,7 @@ owned repos, member since).</em></p>
 
 <p align="center">
   <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=3&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
-  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=36&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
+  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=37&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
   <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=1&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
   <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
 </p>
@@ -92,6 +92,7 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- ✨ **Created** branch in [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) - 2026-05-04 13:59 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 19:13 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 18:29 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 18:11 UTC
@@ -111,6 +112,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:49 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:42 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:23 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-07 10:19 UTC
 
 <!--END_SECTION:activity-->
