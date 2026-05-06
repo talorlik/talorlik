@@ -92,6 +92,7 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 19:48 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 19:03 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 18:23 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 17:21 UTC
@@ -111,6 +112,5 @@ owned repos, member since).</em></p>
 - ⭐ **Starred** [`talorlik/helm-openldap`](https://github.com/talorlik/helm-openldap) - 2026-05-06 14:56 UTC
 - ⭐ **Starred** [`talorlik/google-keepalive`](https://github.com/talorlik/google-keepalive) - 2026-05-06 14:56 UTC
 - ⭐ **Starred** [`talorlik/repo-template-tf`](https://github.com/talorlik/repo-template-tf) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/docker-compose-and-jenkins-casc`](https://github.com/talorlik/docker-compose-and-jenkins-casc) - 2026-05-06 14:56 UTC
 
 <!--END_SECTION:activity-->
