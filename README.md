@@ -92,6 +92,10 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 17:21 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 17:19 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 16:50 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 16:44 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 15:28 UTC
 - ⭐ **Starred** [`talorlik/eks-deployment`](https://github.com/talorlik/eks-deployment) - 2026-05-06 14:57 UTC
 - ⭐ **Starred** [`talorlik/sensor-chart`](https://github.com/talorlik/sensor-chart) - 2026-05-06 14:57 UTC
@@ -108,9 +112,5 @@ owned repos, member since).</em></p>
 - ⭐ **Starred** [`talorlik/docker-compose-and-jenkins-casc`](https://github.com/talorlik/docker-compose-and-jenkins-casc) - 2026-05-06 14:56 UTC
 - ⭐ **Starred** [`talorlik/tf_backend_state`](https://github.com/talorlik/tf_backend_state) - 2026-05-06 14:56 UTC
 - ⭐ **Starred** [`talorlik/docker-playground`](https://github.com/talorlik/docker-playground) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/fluentd`](https://github.com/talorlik/fluentd) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/wikijs-on-k8s`](https://github.com/talorlik/wikijs-on-k8s) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/kubernetes-playground`](https://github.com/talorlik/kubernetes-playground) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/ldap-2fa-on-k8s`](https://github.com/talorlik/ldap-2fa-on-k8s) - 2026-05-06 14:56 UTC
 
 <!--END_SECTION:activity-->
