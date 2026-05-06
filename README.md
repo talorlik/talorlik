@@ -44,7 +44,7 @@ owned repos, member since).</em></p>
 <p align="center">
   <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=3&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
   <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=37&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
-  <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=1&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
+  <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=24&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
   <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
 </p>
 
@@ -92,25 +92,25 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 01:56 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 01:42 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 00:50 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-05 22:50 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-05 20:46 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-05 20:32 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-05 17:05 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-05 16:50 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-05 16:45 UTC
-- ✨ **Created** branch in [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) - 2026-05-04 13:59 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 19:13 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 18:29 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 18:11 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-04-26 15:19 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 12:21 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 12:15 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 10:53 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-20 10:41 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-16 20:26 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-04-16 20:23 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 15:28 UTC
+- ⭐ **Starred** [`talorlik/eks-deployment`](https://github.com/talorlik/eks-deployment) - 2026-05-06 14:57 UTC
+- ⭐ **Starred** [`talorlik/sensor-chart`](https://github.com/talorlik/sensor-chart) - 2026-05-06 14:57 UTC
+- ⭐ **Starred** [`talorlik/talo-devops-deployment`](https://github.com/talorlik/talo-devops-deployment) - 2026-05-06 14:57 UTC
+- ⭐ **Starred** [`talorlik/tf_exercise`](https://github.com/talorlik/tf_exercise) - 2026-05-06 14:57 UTC
+- ⭐ **Starred** [`talorlik/polybot_service`](https://github.com/talorlik/polybot_service) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/yolo5_service`](https://github.com/talorlik/yolo5_service) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/polybot_yolo5_aux_infra`](https://github.com/talorlik/polybot_yolo5_aux_infra) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/kube_cluster_infra`](https://github.com/talorlik/kube_cluster_infra) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/DevOps-Demo-Project`](https://github.com/talorlik/DevOps-Demo-Project) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/helm-openldap`](https://github.com/talorlik/helm-openldap) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/google-keepalive`](https://github.com/talorlik/google-keepalive) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/repo-template-tf`](https://github.com/talorlik/repo-template-tf) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/docker-compose-and-jenkins-casc`](https://github.com/talorlik/docker-compose-and-jenkins-casc) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/tf_backend_state`](https://github.com/talorlik/tf_backend_state) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/docker-playground`](https://github.com/talorlik/docker-playground) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/fluentd`](https://github.com/talorlik/fluentd) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/wikijs-on-k8s`](https://github.com/talorlik/wikijs-on-k8s) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/kubernetes-playground`](https://github.com/talorlik/kubernetes-playground) - 2026-05-06 14:56 UTC
+- ⭐ **Starred** [`talorlik/ldap-2fa-on-k8s`](https://github.com/talorlik/ldap-2fa-on-k8s) - 2026-05-06 14:56 UTC
 
 <!--END_SECTION:activity-->
