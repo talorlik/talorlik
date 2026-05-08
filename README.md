@@ -92,6 +92,9 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-08 17:44 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-08 17:33 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-08 16:54 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-08 14:50 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-08 11:26 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 19:48 UTC
@@ -109,8 +112,5 @@ owned repos, member since).</em></p>
 - ⭐ **Starred** [`talorlik/polybot_service`](https://github.com/talorlik/polybot_service) - 2026-05-06 14:56 UTC
 - ⭐ **Starred** [`talorlik/yolo5_service`](https://github.com/talorlik/yolo5_service) - 2026-05-06 14:56 UTC
 - ⭐ **Starred** [`talorlik/polybot_yolo5_aux_infra`](https://github.com/talorlik/polybot_yolo5_aux_infra) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/kube_cluster_infra`](https://github.com/talorlik/kube_cluster_infra) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/DevOps-Demo-Project`](https://github.com/talorlik/DevOps-Demo-Project) - 2026-05-06 14:56 UTC
-- ⭐ **Starred** [`talorlik/helm-openldap`](https://github.com/talorlik/helm-openldap) - 2026-05-06 14:56 UTC
 
 <!--END_SECTION:activity-->
