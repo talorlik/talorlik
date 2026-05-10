@@ -92,6 +92,8 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-09 23:51 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-09 23:42 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-09 22:12 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-09 21:05 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-09 17:39 UTC
@@ -110,7 +112,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 16:44 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/dockerized-java-app-on-ec2`](https://github.com/talorlik/dockerized-java-app-on-ec2) (main) - 2026-05-06 15:28 UTC
 - ⭐ **Starred** [`talorlik/eks-deployment`](https://github.com/talorlik/eks-deployment) - 2026-05-06 14:57 UTC
-- ⭐ **Starred** [`talorlik/sensor-chart`](https://github.com/talorlik/sensor-chart) - 2026-05-06 14:57 UTC
-- ⭐ **Starred** [`talorlik/talo-devops-deployment`](https://github.com/talorlik/talo-devops-deployment) - 2026-05-06 14:57 UTC
 
 <!--END_SECTION:activity-->
