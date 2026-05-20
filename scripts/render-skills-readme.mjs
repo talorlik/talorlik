@@ -374,7 +374,11 @@ function renderTechStackWeb(manifest) {
     }
     const title = sections[secId] || secId;
     const emo = SECTION_EMOJI[secId] || "";
-    parts.push('  <div class="tech-stack__category">\n');
+    const categoryClass =
+      secId === "ai"
+        ? "tech-stack__category tech-stack__category--ai"
+        : "tech-stack__category";
+    parts.push(`  <div class="${categoryClass}">\n`);
     parts.push(
       `    <h3>${emo} ${escapeHtml(title)}</h3>\n`,
     );

@@ -192,6 +192,11 @@ section.hero h1 {
   text-align: center;
 }
 
+.tech-stack__category--ai {
+  flex-basis: 100%;
+  max-width: 520px;
+}
+
 .tech-stack__category h3 {
   margin: 0 0 0.75rem;
   font-size: clamp(0.95rem, 2.5vw, 1.05rem);
