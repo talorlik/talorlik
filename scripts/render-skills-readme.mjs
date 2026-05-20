@@ -261,14 +261,21 @@ async function renderTechStackSvg(manifest) {
   const titleToIconsGap = 16;
   const iconGap = 10;
   const iconsPerRow = 4;
-  const aiIconsPerRow = 7;
+  const maxAiIconsPerRow = 8;
   const lineHeight = size + iconGap + 2;
   const sectionBottomPadding = 20;
   const iconsOffsetY = titleTopPadding + titleFontSize + titleToIconsGap;
+  const iconColsForSection = (secId, count) => {
+    if (secId !== "ai" || count <= maxAiIconsPerRow) {
+      return secId === "ai" ? Math.max(1, count) : iconsPerRow;
+    }
+    const rowCount = Math.ceil(count / maxAiIconsPerRow);
+    return Math.ceil(count / rowCount);
+  };
   const sectionHeights = new Map();
   for (const secId of SECTION_ORDER) {
     const count = (bySection.get(secId) || []).length;
-    const iconCols = secId === "ai" ? aiIconsPerRow : iconsPerRow;
+    const iconCols = iconColsForSection(secId, count);
     const rows = Math.max(1, Math.ceil(count / iconCols));
     sectionHeights.set(
       secId,
@@ -303,7 +310,7 @@ async function renderTechStackSvg(manifest) {
     const title = sections[secId] || secId;
     const emoji = SECTION_EMOJI[secId] || "";
     const titleText = `${emoji} ${title}`;
-    const iconCols = secId === "ai" ? aiIconsPerRow : iconsPerRow;
+    const iconCols = iconColsForSection(secId, items.length);
 
     const out = [];
     out.push(

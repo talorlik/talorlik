@@ -298,6 +298,15 @@ skills:
     icon_kind: local
     icon_ref: docs/profile-icons/openai.svg
     link: https://openai.com/chatgpt
+  - id: claude
+    section: ai
+    label: Claude
+    last_used: Current
+    rating: 4
+    icon_kind: simpleicons
+    icon_slug: claude
+    icon_color: "D97757"
+    link: https://claude.ai/
   - id: perplexity
     section: ai
     label: Perplexity
