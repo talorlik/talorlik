@@ -158,9 +158,29 @@ section.hero h1 {
   padding: 0 0.25rem;
 }
 
+.intro-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(1rem, 3vw, 1.5rem);
+  width: 100%;
+  margin: 0 0 clamp(2rem, 5vw, 2.5rem);
+}
+
+.profile-pic {
+  flex: 0 0 auto;
+  width: clamp(5.5rem, 14vw, 8.75rem);
+  height: clamp(5.5rem, 14vw, 8.75rem);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid var(--border);
+  box-shadow: 0 0 0 4px rgba(0, 217, 255, 0.06);
+}
+
 .intro {
-  max-width: var(--max);
-  margin: 0 auto clamp(2rem, 5vw, 2.5rem);
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
   color: var(--muted);
   font-size: clamp(0.98rem, 2.6vw, 1.02rem);
 }
