@@ -16,14 +16,14 @@
 ## About Me
 
 - About **25 years** in high-tech across **South Africa, Spain, and Israel** - hands-on software
-  engineering, technical leadership, **DevOps**, and **cloud architecture**
+  engineering, technical leadership, **DevOps**, **cloud architecture**, and **AI Automation**
 - Focus: **automation-first** delivery, **operational reliability**, **security-by-design**,
   **performance tuning**, and **cost optimization**
 - Building and operating **cloud-native** platforms, **Kubernetes**, **IaC**, and **CI/CD**; exploring
   **AI** in DevOps for smarter, faster workflows
-- Open to **DevOps**, **Platform Engineer**, or **Solution Architect** roles; **global relocation**
+- Open to **DevOps**, **Platform Engineer**, **Solution Architect**, or **AI Automation Engineer** roles; **global relocation**
 - Languages: **English** and **Hebrew** (fluent), **Spanish** (working proficiency)
-- Ask me about **AWS, Kubernetes, Terraform, Docker, GitOps, and platform design**
+- Ask me about **AWS, Kubernetes, Terraform, Docker, GitOps, platform design, and AI automated workflows**
 
 ## Tech Stack
 
