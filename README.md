@@ -43,7 +43,7 @@ owned repos, member since).</em></p>
 
 <p align="center">
   <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=4&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
-  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=40&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
+  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=41&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
   <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=24&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
   <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
 </p>
@@ -92,6 +92,7 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 📌 **ForkEvent** in [`RanNahmany/game-changer-app-template`](https://github.com/RanNahmany/game-changer-app-template) - 2026-05-27 17:44 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-contact-form`](https://github.com/talorlik/claude-code-contact-form) (main) - 2026-05-27 15:17 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-roi-calculator-marketing`](https://github.com/talorlik/claude-code-roi-calculator-marketing) (main) - 2026-05-24 18:41 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-roi-calculator-marketing`](https://github.com/talorlik/claude-code-roi-calculator-marketing) (main) - 2026-05-24 17:48 UTC
@@ -111,6 +112,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-personal-landing-page`](https://github.com/talorlik/claude-code-personal-landing-page) (main) - 2026-05-20 16:53 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-personal-landing-page`](https://github.com/talorlik/claude-code-personal-landing-page) (main) - 2026-05-20 15:43 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-personal-landing-page`](https://github.com/talorlik/claude-code-personal-landing-page) (main) - 2026-05-20 14:03 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-05-20 13:36 UTC
 
 <!--END_SECTION:activity-->
