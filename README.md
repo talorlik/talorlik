@@ -43,7 +43,7 @@ owned repos, member since).</em></p>
 
 <p align="center">
   <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=4&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
-  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=43&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
+  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=44&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
   <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=24&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
   <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
 </p>
@@ -92,6 +92,7 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- ✨ **Created** branch in [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) - 2026-06-12 13:40 UTC
 - 🚀 **Pushed** 2 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-10 02:45 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-10 01:21 UTC
 - 🚀 **Pushed** 3 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-10 00:56 UTC
@@ -111,6 +112,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-07 10:34 UTC
 - 🚀 **Pushed** 2 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-06 23:52 UTC
 - 🚀 **Pushed** 2 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-06 17:21 UTC
-- 🚀 **Pushed** 5 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-06 16:50 UTC
 
 <!--END_SECTION:activity-->
