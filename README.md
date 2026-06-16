@@ -14,7 +14,7 @@
 
 ## About Me
 
-- About **25 years** in high-tech across **South Africa, Spain, and Israel** - hands-on software
+- **25+ years** in high-tech across **South Africa, Spain, and Israel** - hands-on software
   engineering, technical leadership, **DevOps**, **cloud architecture**, and **AI Automation**
 - Focus: **automation-first** delivery, **operational reliability**, **security-by-design**,
   **performance tuning**, and **cost optimization**
