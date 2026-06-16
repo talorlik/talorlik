@@ -163,7 +163,42 @@ section.hero h1 {
   align-items: flex-start;
   gap: clamp(1rem, 3vw, 1.5rem);
   width: 100%;
+  margin: 0 0 clamp(1rem, 3vw, 1.35rem);
+}
+
+.bio-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   margin: 0 0 clamp(2rem, 5vw, 2.5rem);
+}
+
+.bio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 44px;
+  padding: 0.45rem 1.15rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  font-weight: 600;
+  font-size: clamp(0.9rem, 2.4vw, 0.95rem);
+  line-height: 1.2;
+}
+
+.bio-btn:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+.bio-btn__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  flex: 0 0 auto;
 }
 
 .profile-pic {

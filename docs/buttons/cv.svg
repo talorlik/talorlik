@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="40" viewBox="0 0 168 40" role="img" aria-label="Download CV">
+  <title>Download CV</title>
+  <rect x="0.5" y="0.5" width="167" height="39" rx="19.5" ry="19.5" fill="#12161F" stroke="#00D9FF" stroke-opacity="0.22"/>
+  <g transform="translate(18,11) scale(0.75)" fill="#00D9FF">
+    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+  </g>
+  <text x="45" y="25" font-family="'DejaVu Sans', Verdana, Geneva, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">Download CV</text>
+</svg>

@@ -10,7 +10,6 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=talorlik" alt="Visitor Badge" style="height: 28px; width: auto;"/>
   <img src="https://img.shields.io/github/followers/talorlik?style=social" alt="Followers" style="height: 28px; width: auto;"/>
   <img src="https://komarev.com/ghpvc/?username=talorlik&color=00d9ff&style=flat-square&label=Profile+Views" alt="Profile Views" style="height: 28px; width: auto;"/>
-  <a href="https://linkedin.com/in/tal-orlik"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="height: 28px; width: 28px;"/></a>
 </div>
 
 ## About Me
@@ -24,6 +23,13 @@
 - Open to **DevOps**, **Platform Engineer**, **Solution Architect**, or **AI Automation Engineer** roles; **global relocation**
 - Languages: **English** and **Hebrew** (fluent), **Spanish** (working proficiency)
 - Ask me about **AWS, Kubernetes, Terraform, Docker, GitOps, platform design, and AI automated workflows**
+
+<p align="center">
+  <a href="https://linkedin.com/in/tal-orlik"><img src="./docs/buttons/linkedin.svg" alt="LinkedIn" height="40" /></a>
+  <a href="https://talorlik.github.io/talorlik/"><img src="./docs/buttons/github.svg" alt="GitHub page" height="40" /></a>
+  <a href="https://talorlik.github.io/talorlik/content/talorlik-cv-latest.pdf"><img src="./docs/buttons/cv.svg" alt="Download CV" height="40" /></a>
+  <a href="https://talorlik.github.io/talorlik/content/skills-matrix.pdf"><img src="./docs/buttons/skills-matrix.svg" alt="Skills Matrix" height="40" /></a>
+</p>
 
 ## Tech Stack
 
