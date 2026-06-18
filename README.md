@@ -98,6 +98,10 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 15:15 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 15:01 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 14:40 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 13:03 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 11:59 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 10:47 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 10:29 UTC
@@ -114,9 +118,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-06-16 11:57 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-06-16 11:43 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 22:26 UTC
-- 🚀 **Pushed** 5 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 19:41 UTC
-- 🚀 **Pushed** 6 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 16:24 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 15:21 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-14 13:44 UTC
 
 <!--END_SECTION:activity-->
