@@ -98,6 +98,11 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 11:59 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 10:47 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 10:29 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 10:13 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 10:13 UTC
 - 📌 **DeleteEvent** in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:41 UTC
 - ✨ **Created** branch in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:41 UTC
 - ✨ **Created** branch in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:37 UTC
@@ -113,10 +118,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 6 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 16:24 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 15:21 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-14 13:44 UTC
-- 📌 **DeleteEvent** in [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) - 2026-06-14 13:44 UTC
-- ✨ **Created** branch in [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) - 2026-06-14 13:44 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-14 13:12 UTC
-- 📌 **DeleteEvent** in [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) - 2026-06-14 13:12 UTC
-- ✨ **Created** branch in [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) - 2026-06-14 13:12 UTC
 
 <!--END_SECTION:activity-->
