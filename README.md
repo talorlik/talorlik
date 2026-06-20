@@ -98,6 +98,7 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 17:02 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 16:27 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 16:23 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 16:01 UTC
@@ -117,6 +118,5 @@ owned repos, member since).</em></p>
 - 📌 **DeleteEvent** in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:41 UTC
 - ✨ **Created** branch in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:41 UTC
 - ✨ **Created** branch in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:37 UTC
-- 🚀 **Pushed** 4 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-16 15:55 UTC
 
 <!--END_SECTION:activity-->
