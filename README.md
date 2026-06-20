@@ -98,6 +98,13 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 16:27 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 16:23 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 16:01 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 15:51 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 15:40 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 15:36 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 15:17 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 15:15 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 15:01 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 14:40 UTC
@@ -111,12 +118,5 @@ owned repos, member since).</em></p>
 - ✨ **Created** branch in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:41 UTC
 - ✨ **Created** branch in [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) - 2026-06-18 09:37 UTC
 - 🚀 **Pushed** 4 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-16 15:55 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-16 15:09 UTC
-- 🚀 **Pushed** 2 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-16 14:27 UTC
-- 🚀 **Pushed** 3 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-16 14:04 UTC
-- 🚀 **Pushed** 8 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-16 13:15 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-06-16 11:57 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/talorlik`](https://github.com/talorlik/talorlik) (main) - 2026-06-16 11:43 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-15 22:26 UTC
 
 <!--END_SECTION:activity-->
