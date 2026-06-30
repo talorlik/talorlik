@@ -98,6 +98,8 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-30 13:10 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-30 12:34 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-ai-coach-assistant`](https://github.com/talorlik/claude-code-ai-coach-assistant) (main) - 2026-06-30 10:46 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-coding-academy`](https://github.com/talorlik/claude-code-coding-academy) (main) - 2026-06-30 09:57 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/claude-code-mamas-bakery`](https://github.com/talorlik/claude-code-mamas-bakery) (main) - 2026-06-30 09:57 UTC
@@ -116,7 +118,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-20 15:17 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 15:15 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 15:01 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 14:40 UTC
-- 🚀 **Pushed** 1 commit(s) to [`talorlik/jfrog-learn`](https://github.com/talorlik/jfrog-learn) (main) - 2026-06-18 13:03 UTC
 
 <!--END_SECTION:activity-->
