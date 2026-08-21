@@ -49,7 +49,7 @@ owned repos, member since).</em></p>
 
 <p align="center">
   <a href="https://github.com/talorlik?tab=followers"><img src="https://img.shields.io/static/v1?label=Followers&message=4&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub followers" /></a>
-  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=47&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
+  <a href="https://github.com/talorlik?tab=repositories"><img src="https://img.shields.io/static/v1?label=Public+repos&message=48&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Public repositories" /></a>
   <img src="https://img.shields.io/static/v1?label=Stars+%28owned+repos%29&message=24&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="Total stars on owned repositories" />
   <img src="https://img.shields.io/static/v1?label=GitHub+since&message=2014&color=00d9ff&labelColor=1a1b27&style=for-the-badge" alt="GitHub member since" />
 </p>
@@ -98,6 +98,8 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
-_No recent public activity._
+- 🚀 **Pushed** 4 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-08-21 16:26 UTC
+- 🚀 **Pushed** 2 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-08-21 16:17 UTC
+- 📌 **ForkEvent** in [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent) - 2026-08-21 16:07 UTC
 
 <!--END_SECTION:activity-->
