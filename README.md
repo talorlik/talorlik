@@ -98,6 +98,8 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 📌 **DeleteEvent** in [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) - 2026-08-23 09:30 UTC
+- 🚀 **Pushed** 1 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-08-23 09:30 UTC
 - ✨ **Created** branch in [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) - 2026-08-23 09:28 UTC
 - 🚀 **Pushed** 3 commit(s) to [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) (main) - 2026-08-23 09:15 UTC
 - 🚀 **Pushed** 19 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-08-22 23:32 UTC
@@ -116,6 +118,5 @@ owned repos, member since).</em></p>
 - 🚀 **Pushed** 163 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-08-22 11:43 UTC
 - 🚀 **Pushed** 4 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-08-21 16:26 UTC
 - 🚀 **Pushed** 2 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-08-21 16:17 UTC
-- 📌 **ForkEvent** in [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent) - 2026-08-21 16:07 UTC
 
 <!--END_SECTION:activity-->
