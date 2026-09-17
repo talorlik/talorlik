@@ -98,9 +98,6 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
-- ✨ **Created** branch in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-13 23:26 UTC
-- 📌 **DeleteEvent** in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-12 17:16 UTC
-- 📌 **DeleteEvent** in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-12 17:16 UTC
 - 🔀 **PR closed** in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-08-29 18:14 UTC
 - ⭐ **Starred** [`talorlik/observability-kit`](https://github.com/talorlik/observability-kit) - 2026-08-25 15:19 UTC
 - 📌 **ForkEvent** in [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent) - 2026-08-21 16:07 UTC
