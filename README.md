@@ -98,6 +98,8 @@ owned repos, member since).</em></p>
 
 <!--START_SECTION:activity-->
 
+- 🔀 **PR merged** in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-25 15:49 UTC
+- 🔀 **PR opened** in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-25 14:51 UTC
 - 🚀 **Pushed** 1 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-09-24 05:36 UTC
 - 📌 **DeleteEvent** in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-23 05:02 UTC
 - 🚀 **Pushed** 310 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-09-22 23:31 UTC
@@ -116,7 +118,5 @@ owned repos, member since).</em></p>
 - ✨ **Created** branch in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-22 03:35 UTC
 - 🚀 **Pushed** 21 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-09-22 05:07 UTC
 - 🚀 **Pushed** 7 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (20260922-1ae6f650) - 2026-09-22 03:35 UTC
-- ✨ **Created** branch in [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) - 2026-09-22 03:35 UTC
-- 🚀 **Pushed** 72 commit(s) to [`talorlik/hermes-agent`](https://github.com/talorlik/hermes-agent) (main) - 2026-09-22 04:31 UTC
 
 <!--END_SECTION:activity-->
